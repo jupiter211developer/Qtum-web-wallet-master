@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './assets/less/qtum-icons.less';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

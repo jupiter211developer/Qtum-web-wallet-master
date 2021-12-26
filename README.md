@@ -1,3 +1,7 @@
+# My Skype id is live:.cid.930aaf0b06b3baf6
+
+# You can run the project by npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -24,6 +24,25 @@
   color: white;
 }
 
+input[type='text'], input[type='text']:disabled {
+  color: white !important;
+  -webkit-text-fill-color: white;
+}
+
+input[type='number'], input[type='number']:disabled {
+  color: white !important;
+  -webkit-text-fill-color: white;
+}
+
+input[type='password'], input[type='password']:disabled {
+  color: white !important;
+  -webkit-text-fill-color: white;
+}
+
+textarea, textarea:disabled {
+  color: white !important;
+  -webkit-text-fill-color: white;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +54,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.red--text {
+  color: 'red';
+}
+
+.green--text {
+  color: 'green';
 }

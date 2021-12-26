@@ -1,0 +1,38 @@
+.delegation-list {
+    .delegation-list__item {
+      display: flex;
+      flex: 1;
+      margin-top: 20px;
+      .delegation-list__left,
+      .delegation-list__right {
+        width: 50%;
+      }
+      .delegation-list__left {
+        padding-right: 10px;
+        border-right: 1px solid #666;
+        .header {
+          display: flex;
+          align-items: baseline;
+          margin-bottom: 10px;
+          .name {
+            font-size: 24px;
+          }
+          .fee {
+            font-style: italic;
+          }
+        }
+      }
+      .delegation-list__right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        .balance {
+          font-size: 20px;
+        }
+        .action {
+          z-index: 2;
+        }
+      }
+    }
+  }
